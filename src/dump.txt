@@ -1,0 +1,1942 @@
+In archive libpsd.a:
+
+adjustment.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 adjustment.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata	00000000 .rodata
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	00000031 psd_adjustment_layer_update
+00000031 g     F .text	00000232 psd_adjustment_layer_blend
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 psd_layer_blend_levels
+00000000         *UND*	00000000 psd_layer_blend_curves
+00000000         *UND*	00000000 psd_layer_blend_brightness_contrast
+00000000         *UND*	00000000 psd_layer_blend_color_balance
+00000000         *UND*	00000000 psd_layer_blend_hue_saturation
+00000000         *UND*	00000000 psd_layer_blend_selective_color
+00000000         *UND*	00000000 psd_layer_blend_threshold
+00000000         *UND*	00000000 psd_layer_blend_invert
+00000000         *UND*	00000000 psd_layer_blend_posterize
+00000000         *UND*	00000000 psd_layer_blend_channel_mixer
+00000000         *UND*	00000000 psd_layer_blend_gradient_map
+00000000         *UND*	00000000 psd_layer_blend_photo_filter
+00000263 g     F .text	0000014b psd_adjustment_blend_image
+00000000         *UND*	00000000 psd_rect_width
+00000000         *UND*	00000000 psd_rect_height
+000003ae g     F .text	00000223 psd_adjustment_blend_rgb
+00000000         *UND*	00000000 psd_rgb_get_brightness
+000005d1 g     F .text	0000017e psd_adjustment_blend_gray
+0000074f g     F .text	00000152 psd_adjustment_blend_color
+
+
+
+bevel_emboss.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 bevel_emboss.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l     F .text	0000017b psd_set_layer_bevel_emboss_default
+00000000 l    d  .rodata	00000000 .rodata
+00000145 l     O .rodata	0000001c __PRETTY_FUNCTION__.4880
+00000120 l     O .rodata	00000025 __PRETTY_FUNCTION__.5170
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+0000017b g     F .text	000001ae psd_get_layer_bevel_emboss
+00000000         *UND*	00000000 psd_stream_get_int
+00000000         *UND*	00000000 psd_stream_get_blend_mode
+00000000         *UND*	00000000 psd_stream_get_space_color
+00000000         *UND*	00000000 psd_stream_get_char
+00000000         *UND*	00000000 psd_stream_get_bool
+00000329 g     F .text	000015f0 psd_get_layer_bevel_emboss2
+00000000         *UND*	00000000 psd_stream_get_null
+00000000         *UND*	00000000 psd_stream_get
+00000000         *UND*	00000000 strcmp
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 psd_stream_get_double
+00000000         *UND*	00000000 psd_stream_get_object_point
+00000000         *UND*	00000000 psd_stream_get_object_blend_mode
+00000000         *UND*	00000000 psd_stream_get_object_color
+00000000         *UND*	00000000 psd_stream_get_object_technique
+00000000         *UND*	00000000 psd_stream_get_object_contour
+00000000         *UND*	00000000 psd_stream_get_object_pattern_info
+00000000         *UND*	00000000 __stack_chk_fail
+00001919 g     F .text	000007b2 psd_layer_effects_blend_bevel_emboss
+00000000         *UND*	00000000 cos
+00000000         *UND*	00000000 sin
+00000000         *UND*	00000000 psd_free
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 psd_create_bitmap
+00000000         *UND*	00000000 psd_inflate_bitmap
+00000000         *UND*	00000000 psd_fill_bitmap_without_alpha_channel
+00000000         *UND*	00000000 psd_bitmap_gaussian_blur_alpha_channel
+00000000         *UND*	00000000 psd_copy_bitmap
+00000000         *UND*	00000000 psd_offset_bitmap
+00000000         *UND*	00000000 psd_bitmap_knock_out
+00000000         *UND*	00000000 memcpy
+00000000         *UND*	00000000 psd_bitmap_blend_mask
+00000000         *UND*	00000000 psd_bitmap_contour_alpha_channel
+00000000         *UND*	00000000 psd_free_bitmap
+
+
+
+bitmap.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 bitmap.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000588 l     F .text	000002fb psd_make_transfer_bound
+00000000 l     O .rodata	00000100 C.17.5426
+00000000 l    d  .rodata	00000000 .rodata
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	000000fd psd_get_bitmap
+00000000         *UND*	00000000 psd_freeif
+00000000         *UND*	00000000 psd_malloc
+000000fd g     F .text	0000007c psd_create_bitmap
+00000179 g     F .text	00000044 psd_free_bitmap
+000001bd g     F .text	00000075 psd_copy_bitmap
+00000000         *UND*	00000000 memcpy
+00000232 g     F .text	000000ed psd_inflate_bitmap
+00000a9d g     F .text	00000041 psd_fill_bitmap
+0000031f g     F .text	00000269 psd_offset_bitmap
+00000000         *UND*	00000000 memmove
+00000000         *UND*	00000000 psd_color_memset
+00000000         *UND*	00000000 psd_make_rect
+00000000         *UND*	00000000 psd_incept_rect
+00000000         *UND*	00000000 psd_dup_rect
+00000000         *UND*	00000000 psd_is_empty_rect
+00000883 g     F .text	00000108 psd_draw_bitmap
+00000000         *UND*	00000000 psd_rect_width
+00000000         *UND*	00000000 psd_rect_height
+0000098b g     F .text	00000112 psd_scale_bitmap
+00000000         *UND*	00000000 psd_fixed_16_16_int
+00001c37 g     F .text	00000322 psd_bitmap_get_fixed_pixel
+00000ade g     F .text	00000068 psd_fill_bitmap_without_alpha_channel
+00000b46 g     F .text	000000a3 psd_bitmap_copy_alpha_channel
+00000be9 g     F .text	000000a3 psd_bitmap_copy_without_alpha_channel
+00000c8c g     F .text	000000c2 psd_bitmap_mix_alpha_channel
+00000d4e g     F .text	00000253 psd_bitmap_blend_alpha_channel
+00000fa1 g     F .text	00000349 psd_bitmap_contour_alpha_channel
+00000000         *UND*	00000000 __stack_chk_fail
+000012ea g     F .text	0000006d psd_bitmap_fill_alpha_channel
+00001357 g     F .text	00000069 psd_bitmap_reverse_alpha_channel
+000013c0 g     F .text	00000085 psd_bitmap_reverse_mixed_alpha_channel
+00001445 g     F .text	000000ca psd_bitmap_knock_out
+0000150f g     F .text	000000a2 psd_bitmap_find_edge
+000015b1 g     F .text	0000013d psd_bitmap_ajust_range
+000016ee g     F .text	000004fc psd_bitmap_blend_mask
+00001bea g     F .text	0000004d psd_bitmap_get_pixel
+
+
+
+blend.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 blend.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l     F .text	0000008e psd_build_rand_data
+0000008e l     F .text	00000081 psd_image_clear_rect
+00000000 l    d  .rodata	00000000 .rodata
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 srand
+00000000         *UND*	00000000 rand
+00000000         *UND*	00000000 psd_rect_width
+00000000         *UND*	00000000 psd_color_memset
+0000010f g     F .text	00000130 psd_layer_check_restricted
+0000023f g     F .text	0000087a psd_layer_blend_normal
+00000000         *UND*	00000000 psd_rect_height
+00000ab9 g     F .text	000017a9 psd_layer_blend
+00000000         *UND*	00000000 psd_rgb_to_inthsb
+00000000         *UND*	00000000 psd_inthsb_to_rgb
+00002262 g     F .text	00000a86 psd_layer_blend_normal_restricted
+00002ce8 g     F .text	00001ed7 psd_layer_blend_restricted
+00004bbf g     F .text	00000428 psd_image_blend
+00000000         *UND*	00000000 psd_make_rect
+00000000         *UND*	00000000 psd_incept_rect
+00000000         *UND*	00000000 psd_adjustment_layer_blend
+00004fe7 g     F .text	0000002a psd_image_blend_free
+00000000         *UND*	00000000 psd_freeif
+
+
+
+bmpfile.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 bmpfile.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata	00000000 .rodata
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	00000120 bmp_save
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 fopen
+00000000         *UND*	00000000 rewind
+00000000         *UND*	00000000 fwrite
+00000000         *UND*	00000000 fclose
+00000120 g     F .text	0000019e bmp_load
+00000000         *UND*	00000000 malloc
+00000000         *UND*	00000000 fread
+00000000         *UND*	00000000 puts
+00000000         *UND*	00000000 free
+
+
+
+boundary.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 boundary.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l     F .text	0000021f psd_get_bounds
+0000021f l     F .text	00000078 psd_boundary_free
+00000297 l     F .text	0000016b psd_boundary_new
+00000402 l     F .text	00000145 psd_find_empty_segs
+00000547 l     F .text	0000010b psd_boundary_add_seg
+00000652 l     F .text	00000137 psd_process_horiz_seg
+00000789 l     F .text	000000e9 psd_make_horiz_segs
+00000872 l     F .text	0000025f psd_generate_boundary
+00000ad1 l     F .text	00000050 psd_boundary_find
+00000b21 l     F .text	00000093 psd_get_boundary
+00000bb4 l     F .text	000000a5 psd_find_segment
+00000c59 l     F .text	000003f3 psd_boundary_sort
+0000104c l     F .text	00000165 psd_scan_convert_close_add_points
+000011b1 l     F .text	000002a1 psd_scan_convert_add_polyline
+00001452 l     F .text	00000049 psd_art_svp_free
+0000149b l     F .text	0000004c psd_scan_convert_free
+000014e7 l     F .text	000000e6 psd_art_vpath_add_point
+000015cd l     F .text	0000026b psd_art_svp_vpath_stroke_arc
+00001838 l     F .text	00000757 psd_render_seg
+00001f8f l     F .text	0000025d psd_render_cap
+000021ec l     F .text	00000757 psd_art_svp_vpath_stroke_raw
+00002943 l     F .text	00000091 psd_reverse_points
+000029d4 l     F .text	0000012f psd_art_svp_seg_compare
+00002b03 l     F .text	00000609 psd_art_svp_from_vpath
+00000000 l    d  .rodata	00000000 .rodata
+0000310c l     F .text	000001f3 psd_art_svp_writer_rewind_add_segment
+00000020 l     O .rodata	00000026 __PRETTY_FUNCTION__.6766
+000032ff l     F .text	00000163 psd_art_svp_writer_rewind_add_point
+00003462 l     F .text	00000005 psd_art_svp_writer_rewind_close_segment
+00003467 l     F .text	0000008e psd_art_svp_writer_rewind_new
+000034f5 l     F .text	00000046 psd_art_pri_new
+0000353b l     F .text	00000094 psd_art_pri_insert
+000035cf l     F .text	0000000f psd_art_pri_empty
+000035de l     F .text	00000136 psd_art_pri_choose
+00003714 l     F .text	00000021 psd_art_svp_intersect_active_free
+00003735 l     F .text	0000030d psd_art_svp_intersect_horiz_commit
+00003a42 l     F .text	0000017e psd_art_svp_intersect_setup_seg
+00003bc0 l     F .text	00000114 psd_art_svp_intersect_push_pt
+00003cd4 l     F .text	000000e0 psd_art_svp_intersect_add_horiz
+00003db4 l     F .text	0000010b psd_art_svp_intersect_break
+00003ebf l     F .text	0000039f psd_art_svp_intersect_add_point
+0000425e l     F .text	00000066 psd_art_svp_intersect_swap_active
+000042c4 l     F .text	00000a0e psd_art_svp_intersect_test_cross
+00004cd2 l     F .text	000003ff psd_art_svp_intersect_horiz
+000050d1 l     F .text	00000122 psd_art_svp_intersect_insert_cross
+000051f3 l     F .text	0000006d psd_art_svp_intersect_insert_line
+00005260 l     F .text	00000228 psd_art_svp_intersect_add_seg
+00005488 l     F .text	0000009e psd_art_svp_intersect_process_intersection
+00005526 l     F .text	00000043 psd_art_svp_intersect_active_delete
+00005569 l     F .text	0000013d psd_art_svp_intersect_advance_cursor
+000056a6 l     F .text	00000021 psd_art_pri_free
+000056c7 l     F .text	00000226 psd_art_svp_intersector
+000058ed l     F .text	00000033 psd_art_svp_writer_rewind_reap
+00005920 l     F .text	00000092 psd_art_svp_vpath_stroke
+000059b2 l     F .text	0000015c psd_stroke_scan_convert
+00005b0e l     F .text	000000f0 psd_scan_convert_finish
+00005bfe l     F .text	000000d0 psd_art_svp_render_aa_iter_new
+00005cce l     F .text	000000a8 psd_art_svp_render_insert_active
+00005d76 l     F .text	00000035 psd_art_svp_render_delete_active
+00005dab l     F .text	00001034 psd_art_svp_render_aa_iter_step
+00006ddf l     F .text	00000059 psd_art_svp_render_aa_iter_done
+00006e38 l     F .text	00000098 psd_art_svp_render_aa
+00006ed0 l     F .text	0000019c psd_scan_convert_render_callback
+0000706c l     F .text	00000074 psd_scan_convert_render_internal
+000070e0 l     F .text	00000302 psd_stroke_boundary
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000         *UND*	00000000 psd_free
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 psd_realloc
+00000000         *UND*	00000000 psd_carm_sqrt
+00000000         *UND*	00000000 atan2
+00000000         *UND*	00000000 ceil
+00000000         *UND*	00000000 sin
+00000000         *UND*	00000000 cos
+00000000         *UND*	00000000 qsort
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 floor
+00000000         *UND*	00000000 memmove
+00000000         *UND*	00000000 psd_color_memset
+000073e2 g     F .text	00000092 psd_draw_stroke
+
+
+
+brightness_contrast.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 brightness_contrast.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata	00000000 .rodata
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	000000e4 psd_get_layer_brightness_contrast
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 psd_stream_get_short
+00000000         *UND*	00000000 psd_stream_get_char
+000000e4 g     F .text	00000274 psd_layer_blend_brightness_contrast
+00000000         *UND*	00000000 tan
+00000000         *UND*	00000000 psd_adjustment_blend_image
+
+
+
+channel_image.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 channel_image.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata	00000000 .rodata
+00000000 l     F .text	0000016f psd_combine_bitmap1_channel
+0000023f l     O .rodata	0000001c __PRETTY_FUNCTION__.3590
+0000016f l     F .text	000001c9 psd_combine_grayscale8_channel
+00000220 l     O .rodata	0000001f __PRETTY_FUNCTION__.3643
+00000338 l     F .text	00000214 psd_combine_grayscale16_channel
+00000200 l     O .rodata	00000020 __PRETTY_FUNCTION__.3716
+0000054c l     F .text	0000015b psd_combine_indexed8_channel
+000001d4 l     O .rodata	0000001d __PRETTY_FUNCTION__.3810
+000006a7 l     F .text	00000240 psd_combine_rgb8_channel
+000001bb l     O .rodata	00000019 __PRETTY_FUNCTION__.3869
+000008e7 l     F .text	000002e7 psd_combine_rgb16_channel
+000001a1 l     O .rodata	0000001a __PRETTY_FUNCTION__.3961
+00000bce l     F .text	000000c9 psd_get_layer_user_supplied_layer_mask8
+00000c97 l     F .text	0000011e psd_get_layer_user_supplied_layer_mask16
+00000180 l     O .rodata	00000021 __PRETTY_FUNCTION__.4189
+0000172b l     F .text	0000019d split_rgb8_channel
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 memcpy
+00000db5 g     F .text	00000976 psd_get_layer_channel_image_data
+00000000         *UND*	00000000 psd_stream_get_null
+00000000         *UND*	00000000 psd_freeif
+00000000         *UND*	00000000 psd_stream_get_short
+00000000         *UND*	00000000 psd_stream_get
+00000000         *UND*	00000000 memset
+000018c8 g     F .text	000000df psd_set_layer_channel_image_data
+00000000         *UND*	00000000 psd_fwrite
+
+
+
+channel_mixer.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 channel_mixer.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+0000015c l     F .text	00000416 psd_channel_mixer_proc
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	0000015c psd_get_layer_channel_mixer
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 psd_stream_get_short
+00000572 g     F .text	000000a0 psd_layer_blend_channel_mixer
+00000000         *UND*	00000000 psd_adjustment_blend_color
+
+
+
+color_balance.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 color_balance.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l     O .bss	00000001 transfer_initialized
+00000020 l     O .bss	00000400 highlights_add
+00000420 l     O .bss	00000400 midtones_add
+00000820 l     O .bss	00000400 shadows_add
+00000c20 l     O .bss	00000400 highlights_sub
+00001020 l     O .bss	00000400 midtones_sub
+00001420 l     O .bss	00000400 shadows_sub
+00000000 l    d  .rodata	00000000 .rodata
+00000101 l     O .rodata	0000001c __PRETTY_FUNCTION__.4678
+00000217 l     F .text	00000100 psd_color_balance_transfer_init
+00000317 l     F .text	000003f0 psd_color_balance_calculate_table
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	00000217 psd_get_layer_color_balance
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 psd_stream_get_short
+00000000         *UND*	00000000 __assert_fail
+00000707 g     F .text	0000011d psd_layer_blend_color_balance
+00000000         *UND*	00000000 psd_adjustment_blend_rgb
+
+
+
+color.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 color.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000809 l     F .text	000000de psd_hue_to_color
+00000000 l    d  .rodata	00000000 .rodata
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	00000046 psd_argb_to_color
+00000046 g     F .text	00000038 psd_rgb_to_color
+0000007e g     F .text	00000133 psd_cmyk_to_color
+000001b1 g     F .text	000000e2 psd_acmyk_to_color
+00000293 g     F .text	0000007e psd_intcmyk_to_color
+00000311 g     F .text	00000087 psd_intacmyk_to_color
+00000398 g     F .text	00000029 psd_lab_to_color
+000003c1 g     F .text	00000193 psd_alab_to_color
+00000000         *UND*	00000000 pow
+000005a1 g     F .text	00000268 psd_axyz_to_color
+00000554 g     F .text	0000004d psd_xyz_to_color
+000008e7 g     F .text	00000041 psd_hsb_to_color
+00000928 g     F .text	00000120 psd_ahsb_to_color
+00000a48 g     F .text	0000000b psd_get_alpha_component
+00000a53 g     F .text	00000010 psd_get_red_component
+00000a63 g     F .text	00000010 psd_get_green_component
+00000a73 g     F .text	00000008 psd_get_blue_component
+00000a7b g     F .text	0000019a psd_color_space_to_argb
+00000c15 g     F .text	00000060 psd_color_memset
+00000000         *UND*	00000000 memcpy
+00000c75 g     F .text	000001a2 psd_rgb_to_inthsb
+00000e17 g     F .text	00000303 psd_inthsb_to_rgb
+0000111a g     F .text	00000046 psd_rgb_get_brightness
+00001160 g     F .text	0000010c psd_rgb_to_intcmyk
+0000126c g     F .text	0000006e psd_intcmyk_to_rgb
+
+
+
+color_mode.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 color_mode.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata	00000000 .rodata
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	0000028f psd_get_color_mode_data
+00000000         *UND*	00000000 psd_stream_get_int
+00000000         *UND*	00000000 sprintf
+00000000         *UND*	00000000 Log_MsgLine
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 psd_free
+00000000         *UND*	00000000 psd_argb_to_color
+00000000         *UND*	00000000 psd_color_memset
+00000000         *UND*	00000000 psd_stream_get
+00000000         *UND*	00000000 __stack_chk_fail
+0000028f g     F .text	00000016 psd_color_mode_data_free
+00000000         *UND*	00000000 psd_freeif
+000002a5 g     F .text	000001bf psd_set_color_mode_data
+00000000         *UND*	00000000 psd_fwrite
+00000000         *UND*	00000000 psd_ftell
+00000000         *UND*	00000000 printf
+
+
+
+color_overlay.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 color_overlay.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l     F .text	00000020 psd_set_layer_color_overlay_default
+00000000 l    d  .rodata	00000000 .rodata
+00000076 l     O .rodata	0000001d __PRETTY_FUNCTION__.3805
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000020 g     F .text	000000b3 psd_get_layer_color_overlay
+00000000         *UND*	00000000 psd_stream_get_int
+00000000         *UND*	00000000 psd_stream_get_blend_mode
+00000000         *UND*	00000000 psd_stream_get_space_color
+00000000         *UND*	00000000 psd_stream_get_char
+00000000         *UND*	00000000 psd_stream_get_bool
+000000d3 g     F .text	00000441 psd_get_layer_color_overlay2
+00000000         *UND*	00000000 psd_stream_get_null
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 psd_stream_get
+00000000         *UND*	00000000 psd_stream_get_object_blend_mode
+00000000         *UND*	00000000 psd_stream_get_double
+00000000         *UND*	00000000 psd_stream_get_object_color
+00000000         *UND*	00000000 __stack_chk_fail
+
+
+
+curves.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 curves.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l     O .data	00000080 psd_basis_matrix
+00000000 l    d  .rodata	00000000 .rodata
+0000019b l     O .rodata	00000015 __PRETTY_FUNCTION__.4689
+00000651 l     F .text	000000b7 psd_curves_compose
+00000708 l     F .text	000004ac psd_curves_plot
+00000bb4 l     F .text	00000167 psd_curves_calculate_table
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	0000062a psd_get_layer_curves
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 psd_stream_get_char
+00000000         *UND*	00000000 psd_stream_get_short
+00000000         *UND*	00000000 psd_stream_get_int
+00000000         *UND*	00000000 __assert_fail
+0000062a g     F .text	00000027 psd_layer_curves_free
+00000000         *UND*	00000000 psd_freeif
+00000000         *UND*	00000000 psd_free
+00000d1b g     F .text	000002df psd_layer_blend_curves
+00000000         *UND*	00000000 psd_adjustment_blend_rgb
+
+
+
+descriptor.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 descriptor.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l     O .data	00000080 psd_basis_matrix
+00000000 l     F .text	0000002a psd_stream_get_unicode_name
+0000002a l     F .text	0000003b psd_stream_get_object_id
+00000000 l    d  .rodata	00000000 .rodata
+00000065 l     F .text	0000016a psd_stream_get_object_reference
+00000420 l     O .rodata	00000020 __PRETTY_FUNCTION__.4668
+000001cf l     F .text	0000001b psd_stream_get_object_double
+000001ea l     F .text	00000026 psd_stream_get_object_unit_float
+00000210 l     F .text	00000013 psd_stream_get_object_string
+00000223 l     F .text	0000001e psd_stream_get_object_enumerated
+00000241 l     F .text	00000013 psd_stream_get_object_integer
+00000254 l     F .text	00000013 psd_stream_get_object_boolean
+00000267 l     F .text	0000001e psd_stream_get_object_class
+00000285 l     F .text	00000028 psd_stream_get_object_alias
+000002ad l     F .text	000001e8 psd_stream_get_object_descriptor
+00000495 l     F .text	0000019f psd_stream_get_object_list
+000003e0 l     O .rodata	00000021 __PRETTY_FUNCTION__.4722
+000003b6 l     O .rodata	0000001b __PRETTY_FUNCTION__.4753
+0000039b l     O .rodata	0000001b __PRETTY_FUNCTION__.4779
+0000037f l     O .rodata	0000001c __PRETTY_FUNCTION__.4789
+00000b07 l     F .text	000000b7 psd_contour_compose
+00000bbe l     F .text	000004be psd_contour_plot
+0000107c l     F .text	0000013b psd_contour_calculate_table
+00000361 l     O .rodata	0000001e __PRETTY_FUNCTION__.5094
+00000340 l     O .rodata	00000021 __PRETTY_FUNCTION__.5200
+00000320 l     O .rodata	00000020 __PRETTY_FUNCTION__.5249
+000002e0 l     O .rodata	00000025 __PRETTY_FUNCTION__.5261
+000002a0 l     O .rodata	00000025 __PRETTY_FUNCTION__.5287
+00000260 l     O .rodata	00000023 __PRETTY_FUNCTION__.5557
+0000023b l     O .rodata	0000001c __PRETTY_FUNCTION__.5620
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000         *UND*	00000000 psd_stream_get_int
+00000000         *UND*	00000000 psd_stream_get_null
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 psd_stream_get_char
+00000634 g     F .text	0000016f psd_stream_get_object_null
+000007a3 g     F .text	00000364 psd_stream_get_object_color
+00000000         *UND*	00000000 psd_stream_get_double
+00000000         *UND*	00000000 psd_rgb_to_color
+000011b7 g     F .text	000006a7 psd_stream_get_object_contour
+00000000         *UND*	00000000 psd_stream_get_bool
+00000000         *UND*	00000000 __stack_chk_fail
+0000185e g     F .text	000003d0 psd_stream_get_object_blend_mode
+00000000         *UND*	00000000 psd_stream_get
+00000000         *UND*	00000000 strcmp
+00001c2e g     F .text	0000008d psd_stream_get_object_technique
+00001cbb g     F .text	000000da psd_stream_get_object_gradient_style
+00001d95 g     F .text	00001146 psd_stream_get_object_gradient_color
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 memset
+00002edb g     F .text	0000036a psd_stream_get_object_pattern_info
+00000000         *UND*	00000000 psd_stream_get_short
+00003245 g     F .text	00000232 psd_stream_get_object_point
+
+
+
+drop_shadow.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 drop_shadow.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l     F .text	000000a4 psd_set_layer_drop_shadow_default
+00000000 l    d  .rodata	00000000 .rodata
+0000009e l     O .rodata	0000001b __PRETTY_FUNCTION__.4871
+00000b8f l     F .text	0000015e psd_shadow_create_blur_filter
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+000000a4 g     F .text	00000125 psd_get_layer_drop_shadow
+00000000         *UND*	00000000 psd_stream_get_int
+00000000         *UND*	00000000 psd_stream_get_short
+00000000         *UND*	00000000 psd_stream_get_space_color
+00000000         *UND*	00000000 psd_stream_get_blend_mode
+00000000         *UND*	00000000 psd_stream_get_bool
+00000000         *UND*	00000000 psd_stream_get_char
+000001c9 g     F .text	000009c6 psd_get_layer_drop_shadow2
+00000000         *UND*	00000000 psd_stream_get_null
+00000000         *UND*	00000000 psd_stream_get
+00000000         *UND*	00000000 strcmp
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 psd_stream_get_object_blend_mode
+00000000         *UND*	00000000 psd_stream_get_object_color
+00000000         *UND*	00000000 psd_stream_get_double
+00000000         *UND*	00000000 psd_stream_get_object_contour
+00000000         *UND*	00000000 __stack_chk_fail
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 exp
+
+
+
+effects.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 effects.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata	00000000 .rodata
+00000074 l     O .rodata	00000016 __PRETTY_FUNCTION__.3888
+0000005d l     O .rodata	00000017 __PRETTY_FUNCTION__.3944
+00000d06 l     F .text	00000032 psd_gradient_color_free
+00000d38 l     F .text	00000016 psd_pattern_info_free
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	0000030b psd_get_layer_effects
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 psd_stream_get_short
+00000000         *UND*	00000000 psd_stream_get_int
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 psd_stream_get_bool
+00000000         *UND*	00000000 psd_get_layer_drop_shadow
+00000000         *UND*	00000000 psd_get_layer_inner_shadow
+00000000         *UND*	00000000 psd_get_layer_outer_glow
+00000000         *UND*	00000000 psd_get_layer_inner_glow
+00000000         *UND*	00000000 psd_get_layer_bevel_emboss
+00000000         *UND*	00000000 psd_get_layer_color_overlay
+0000030b g     F .text	00000973 psd_get_layer_effects2
+00000000         *UND*	00000000 psd_stream_get_null
+00000000         *UND*	00000000 psd_stream_get
+00000000         *UND*	00000000 strcmp
+00000000         *UND*	00000000 psd_get_layer_pattern_overlay2
+00000000         *UND*	00000000 psd_stream_get_double
+00000000         *UND*	00000000 psd_get_layer_drop_shadow2
+00000000         *UND*	00000000 psd_get_layer_inner_shadow2
+00000000         *UND*	00000000 psd_get_layer_outer_glow2
+00000000         *UND*	00000000 psd_get_layer_inner_glow2
+00000000         *UND*	00000000 psd_get_layer_bevel_emboss2
+00000000         *UND*	00000000 psd_get_layer_satin2
+00000000         *UND*	00000000 psd_get_layer_color_overlay2
+00000000         *UND*	00000000 psd_get_layer_gradient_overlay2
+00000000         *UND*	00000000 psd_get_layer_stroke2
+00000000         *UND*	00000000 __stack_chk_fail
+00000c7e g     F .text	00000088 psd_layer_effects_update
+00000000         *UND*	00000000 psd_freeif
+00000d4e g     F .text	000000b3 psd_layer_effects_free
+00000000         *UND*	00000000 psd_free
+
+
+
+file_header.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 file_header.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata	00000000 .rodata
+00000196 l     O .rodata	00000014 __PRETTY_FUNCTION__.3590
+00000182 l     O .rodata	00000014 __PRETTY_FUNCTION__.3738
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	0000044d psd_get_file_header
+00000000         *UND*	00000000 psd_stream_get
+00000000         *UND*	00000000 sprintf
+00000000         *UND*	00000000 Log_MsgLine
+00000000         *UND*	00000000 memcmp
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 __stack_chk_fail
+0000044d g     F .text	0000026e psd_set_file_header
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 psd_fwrite
+00000000         *UND*	00000000 psd_ftell
+00000000         *UND*	00000000 printf
+
+
+
+fixed.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 fixed.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata	00000000 .rodata
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	00000034 psd_fixed_26_6_float
+00000034 g     F .text	0000000b psd_fixed_26_6_int
+0000003f g     F .text	0000000b psd_fixed_26_6_floor
+0000004a g     F .text	0000000e psd_fixed_26_6_ceil
+00000058 g     F .text	0000000e psd_fixed_26_6_round
+00000066 g     F .text	00000034 psd_fixed_16_16_float
+0000009a g     F .text	0000000b psd_fixed_16_16_int
+000000a5 g     F .text	0000000b psd_fixed_16_16_floor
+000000b0 g     F .text	00000010 psd_fixed_16_16_ceil
+000000c0 g     F .text	00000010 psd_fixed_16_16_round
+000000d0 g     F .text	00000010 psd_fixed_16_16_tofloat
+000000e0 g     F .text	00000104 psd_fixed_16_16_mul
+000001e4 g     F .text	00000072 psd_fixed_16_16_div
+00000256 g     F .text	00000034 psd_fixed_8_24_float
+0000028a g     F .text	0000000b psd_fixed_8_24_int
+00000295 g     F .text	0000000b psd_fixed_8_24_floor
+000002a0 g     F .text	00000010 psd_fixed_8_24_ceil
+000002b0 g     F .text	0000000e psd_fixed_8_24_round
+000002be g     F .text	00000010 psd_fixed_8_24_tofloat
+
+
+
+gaussian_blur.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 gaussian_blur.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l     F .text	00000126 psd_make_curve
+00000126 l     F .text	000000af psd_run_length_encode
+00000000 l    d  .rodata	00000000 .rodata
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000         *UND*	00000000 sqrt
+00000000         *UND*	00000000 ceil
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 exp
+000001d5 g     F .text	000005f6 psd_bitmap_gaussian_blur_alpha_channel
+00000000         *UND*	00000000 psd_free
+
+
+
+gradient_blend.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 gradient_blend.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata	00000000 .rodata
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	00000045 psd_carm_sqrt
+00000045 g     F .text	00000c98 psd_gradient_color_get_table
+00000000         *UND*	00000000 psd_color_memset
+00000000         *UND*	00000000 psd_get_red_component
+00000000         *UND*	00000000 psd_get_green_component
+00000000         *UND*	00000000 psd_get_blue_component
+00000cdd g     F .text	000004f1 psd_gradient_fill_linear
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 memcpy
+00000000         *UND*	00000000 psd_free
+000011ce g     F .text	00000644 psd_gradient_fill_radial
+00001812 g     F .text	0000065b psd_gradient_fill_angle
+00001e6d g     F .text	000005ce psd_gradient_fill_reflected
+0000243b g     F .text	00000311 psd_gradient_fill_diamond
+00000000         *UND*	00000000 psd_fixed_16_16_float
+
+
+
+gradient_fill.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 gradient_fill.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata	00000000 .rodata
+00000084 l     O .rodata	0000001c __PRETTY_FUNCTION__.3501
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	00000656 psd_get_layer_gradient_fill
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 psd_stream_get_int
+00000000         *UND*	00000000 psd_stream_get_null
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 psd_stream_get
+00000000         *UND*	00000000 psd_stream_get_bool
+00000000         *UND*	00000000 psd_stream_get_double
+00000000         *UND*	00000000 psd_stream_get_object_gradient_style
+00000000         *UND*	00000000 psd_stream_get_object_gradient_color
+00000000         *UND*	00000000 __stack_chk_fail
+
+
+
+gradient_map.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 gradient_map.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+000004d1 l     F .text	000000a9 psd_gradient_map_proc
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	0000048e psd_get_layer_gradient_map
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 psd_stream_get_short
+00000000         *UND*	00000000 psd_stream_get_bool
+00000000         *UND*	00000000 psd_stream_get_int
+00000000         *UND*	00000000 psd_stream_get
+00000000         *UND*	00000000 psd_stream_get_space_color
+00000000         *UND*	00000000 psd_color_space_to_argb
+0000048e g     F .text	00000043 psd_layer_gradient_map_free
+00000000         *UND*	00000000 psd_freeif
+00000000         *UND*	00000000 psd_free
+0000057a g     F .text	000004d8 psd_layer_blend_gradient_map
+00000000         *UND*	00000000 psd_color_memset
+00000000         *UND*	00000000 psd_get_red_component
+00000000         *UND*	00000000 psd_get_green_component
+00000000         *UND*	00000000 psd_get_blue_component
+00000000         *UND*	00000000 psd_adjustment_blend_color
+
+
+
+gradient_overlay.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 gradient_overlay.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l     F .text	00000042 psd_set_layer_gradient_overlay_default
+00000000 l    d  .rodata	00000000 .rodata
+000000a0 l     O .rodata	00000020 __PRETTY_FUNCTION__.4864
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000042 g     F .text	000007d3 psd_get_layer_gradient_overlay2
+00000000         *UND*	00000000 psd_stream_get_int
+00000000         *UND*	00000000 psd_stream_get_null
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 psd_stream_get
+00000000         *UND*	00000000 psd_stream_get_bool
+00000000         *UND*	00000000 psd_stream_get_object_blend_mode
+00000000         *UND*	00000000 psd_stream_get_double
+00000000         *UND*	00000000 psd_stream_get_object_gradient_color
+00000000         *UND*	00000000 psd_stream_get_object_gradient_style
+00000000         *UND*	00000000 psd_stream_get_object_point
+00000000         *UND*	00000000 __stack_chk_fail
+
+
+
+hue_saturation.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 hue_saturation.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+000001c6 l     F .text	000002a0 psd_hue_saturation_proc
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	000001c6 psd_get_layer_hue_saturation
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 psd_stream_get_short
+00000000         *UND*	00000000 psd_stream_get_char
+00000000         *UND*	00000000 psd_rgb_to_inthsb
+00000000         *UND*	00000000 psd_inthsb_to_rgb
+00000466 g     F .text	00000760 psd_layer_blend_hue_saturation
+00000000         *UND*	00000000 psd_adjustment_blend_color
+
+
+
+image_data.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 image_data.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l     F .text	000000bf psd_combine_bitmap1_channel
+000000bf l     F .text	0000011a psd_combine_grayscale8_channel
+000001d9 l     F .text	00000162 psd_combine_grayscale16_channel
+0000033b l     F .text	000000ab psd_combine_indexed8_channel
+000003e6 l     F .text	000001a3 psd_combine_rgb8_channel
+00000589 l     F .text	00000243 psd_combine_rgb16_channel
+00000000 l    d  .rodata	00000000 .rodata
+00000090 l     O .rodata	00000013 __PRETTY_FUNCTION__.3966
+000015dc l     F .text	0000017e psd_split_rgb8_channel
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+000007cc g     F .text	00000c8b psd_get_image_data
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 psd_stream_get_short
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 psd_free
+00000000         *UND*	00000000 psd_stream_get
+00000000         *UND*	00000000 memcpy
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 psd_freeif
+00001457 g     F .text	00000044 psd_image_data_free
+0000149b g     F .text	00000141 psd_alpha_channel_free
+0000175a g     F .text	000000b4 psd_set_image_data
+00000000         *UND*	00000000 psd_fwrite
+
+
+
+image_resource.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 image_resource.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata	00000000 .rodata
+0000037c l     O .rodata	00000017 __PRETTY_FUNCTION__.3660
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	00001c2a psd_get_image_resource
+00000000         *UND*	00000000 psd_stream_get_int
+00000000         *UND*	00000000 psd_stream_get_short
+00000000         *UND*	00000000 psd_stream_get_char
+00000000         *UND*	00000000 psd_stream_get_null
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 psd_stream_get
+00000000         *UND*	00000000 psd_free
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 memcpy
+00000000         *UND*	00000000 psd_stream_get_space_color
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 psd_thumbnail_decode_raw
+00000000         *UND*	00000000 psd_thumbnail_decode_jpeg
+00000000         *UND*	00000000 psd_stream_get_bool
+00000000         *UND*	00000000 psd_fixed_16_16_tofloat
+00000000         *UND*	00000000 psd_argb_to_color
+00000000         *UND*	00000000 psd_stream_get_float
+00000000         *UND*	00000000 psd_stream_get_double
+00000000         *UND*	00000000 psd_get_path
+00001c2a g     F .text	00000121 psd_image_resource_free
+00000000         *UND*	00000000 psd_alpha_channel_free
+00000000         *UND*	00000000 psd_freeif
+00000000         *UND*	00000000 psd_path_free
+00001d4b g     F .text	000000bd psd_set_image_resource
+00000000         *UND*	00000000 puts
+00000000         *UND*	00000000 psd_fwrite
+00000000         *UND*	00000000 psd_ftell
+00000000         *UND*	00000000 printf
+
+
+
+inner_glow.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 inner_glow.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l     F .text	000000b4 psd_set_layer_inner_glow_default
+00000000 l    d  .rodata	00000000 .rodata
+0000009d l     O .rodata	0000001a __PRETTY_FUNCTION__.3844
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+000000b4 g     F .text	00000102 psd_get_layer_inner_glow
+00000000         *UND*	00000000 psd_stream_get_int
+00000000         *UND*	00000000 psd_stream_get_space_color
+00000000         *UND*	00000000 psd_stream_get_blend_mode
+00000000         *UND*	00000000 psd_stream_get_bool
+00000000         *UND*	00000000 psd_stream_get_char
+000001b6 g     F .text	00000be4 psd_get_layer_inner_glow2
+00000000         *UND*	00000000 psd_stream_get_null
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 psd_stream_get
+00000000         *UND*	00000000 psd_stream_get_object_blend_mode
+00000000         *UND*	00000000 psd_stream_get_object_color
+00000000         *UND*	00000000 psd_stream_get_object_gradient_color
+00000000         *UND*	00000000 psd_stream_get_double
+00000000         *UND*	00000000 psd_stream_get_object_technique
+00000000         *UND*	00000000 psd_stream_get_object_contour
+00000000         *UND*	00000000 __stack_chk_fail
+
+
+
+inner_shadow.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 inner_shadow.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l     F .text	0000009a psd_set_layer_inner_shadow_default
+00000000 l    d  .rodata	00000000 .rodata
+00000091 l     O .rodata	0000001c __PRETTY_FUNCTION__.4870
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+0000009a g     F .text	00000125 psd_get_layer_inner_shadow
+00000000         *UND*	00000000 psd_stream_get_int
+00000000         *UND*	00000000 psd_stream_get_short
+00000000         *UND*	00000000 psd_stream_get_space_color
+00000000         *UND*	00000000 psd_stream_get_blend_mode
+00000000         *UND*	00000000 psd_stream_get_bool
+00000000         *UND*	00000000 psd_stream_get_char
+000001bf g     F .text	00000959 psd_get_layer_inner_shadow2
+00000000         *UND*	00000000 psd_stream_get_null
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 psd_stream_get
+00000000         *UND*	00000000 psd_stream_get_object_blend_mode
+00000000         *UND*	00000000 psd_stream_get_object_color
+00000000         *UND*	00000000 psd_stream_get_double
+00000000         *UND*	00000000 psd_stream_get_object_contour
+00000000         *UND*	00000000 __stack_chk_fail
+
+
+
+invert.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 invert.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	00000049 psd_get_layer_invert
+00000049 g     F .text	000000b4 psd_layer_blend_invert
+00000000         *UND*	00000000 psd_adjustment_blend_image
+00000000         *UND*	00000000 __stack_chk_fail
+
+
+
+jpgfile.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 jpgfile.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l     F .text	00000036 my_error_exit
+00000036 l     F .text	000000d8 putRGBScanline
+0000010e l     F .text	000000a1 putGrayScanlineToRGB
+00000000 l    d  .rodata	00000000 .rodata
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000         *UND*	00000000 longjmp
+000001af g     F .text	000001c5 jpg_save
+00000000         *UND*	00000000 jpeg_std_error
+00000000         *UND*	00000000 jpeg_CreateCompress
+00000000         *UND*	00000000 fopen
+00000000         *UND*	00000000 stderr
+00000000         *UND*	00000000 fprintf
+00000000         *UND*	00000000 jpeg_stdio_dest
+00000000         *UND*	00000000 jpeg_set_defaults
+00000000         *UND*	00000000 jpeg_set_quality
+00000000         *UND*	00000000 jpeg_start_compress
+00000000         *UND*	00000000 jpeg_write_scanlines
+00000000         *UND*	00000000 jpeg_finish_compress
+00000000         *UND*	00000000 fclose
+00000000         *UND*	00000000 jpeg_destroy_compress
+00000000         *UND*	00000000 __stack_chk_fail
+00000374 g     F .text	0000031a jpg_load
+00000000         *UND*	00000000 _setjmp
+00000000         *UND*	00000000 jpeg_destroy_decompress
+00000000         *UND*	00000000 sprintf
+00000000         *UND*	00000000 jpeg_CreateDecompress
+00000000         *UND*	00000000 jpeg_stdio_src
+00000000         *UND*	00000000 jpeg_read_header
+00000000         *UND*	00000000 jpeg_start_decompress
+00000000         *UND*	00000000 malloc
+00000000         *UND*	00000000 jpeg_read_scanlines
+00000000         *UND*	00000000 jpeg_finish_decompress
+
+
+
+layer_mask.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 layer_mask.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l     F .text	00000023 psd_get_layer_name_id
+00000023 l     F .text	000000a5 psd_get_layer_unicode_name
+000000c8 l     F .text	00000021 psd_get_layer_id
+000000e9 l     F .text	00000034 psd_get_layer_blend_clipped
+0000011d l     F .text	00000034 psd_get_layer_blend_interior
+00000151 l     F .text	00000034 psd_get_layer_knockout
+00000185 l     F .text	00000054 psd_get_layer_protected
+000001d9 l     F .text	0000006e psd_get_layer_sheet_color
+00000247 l     F .text	00000067 psd_get_layer_reference_point
+000002ae l     F .text	00000021 psd_get_layer_version
+000002cf l     F .text	00000034 psd_get_layer_transparency_shapes_layer
+00000303 l     F .text	00000034 psd_get_layer_layer_mask_hides_effects
+00000337 l     F .text	00000034 psd_get_layer_vector_mask_hides_effects
+0000036b l     F .text	00000034 psd_get_layer_fill_opacity
+0000039f l     F .text	00000082 psd_get_layer_section_divider
+00000421 l     F .text	0000009a psd_get_layer_channel_blending_restrictions
+00000000 l    d  .rodata	00000000 .rodata
+000004bb l     F .text	00001a4a psd_get_layer_info
+000002b7 l     O .rodata	00000013 __PRETTY_FUNCTION__.5368
+000022e3 l     F .text	000001ea psd_layer_free
+00001f05 l     F .text	000000fb psd_get_mask_info
+0000253c l     F .text	00000a1b psd_set_layer_info
+000002a4 l     O .rodata	00000013 __PRETTY_FUNCTION__.5976
+00002f57 l     F .text	000001b6 psd_set_mask_info
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000         *UND*	00000000 psd_stream_get_int
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 psd_stream_get
+00000000         *UND*	00000000 psd_stream_get_bool
+00000000         *UND*	00000000 psd_stream_get_null
+00000000         *UND*	00000000 psd_stream_get_char
+00000000         *UND*	00000000 psd_color_space_to_argb
+00000000         *UND*	00000000 psd_stream_get_double
+00000000         *UND*	00000000 psd_stream_get_blend_mode
+00000000         *UND*	00000000 sprintf
+00000000         *UND*	00000000 Log_MsgLine
+00000000         *UND*	00000000 psd_stream_get_short
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 psd_get_layer_levels
+00000000         *UND*	00000000 psd_get_layer_curves
+00000000         *UND*	00000000 psd_get_layer_brightness_contrast
+00000000         *UND*	00000000 psd_get_layer_color_balance
+00000000         *UND*	00000000 psd_get_layer_hue_saturation
+00000000         *UND*	00000000 psd_get_layer_selective_color
+00000000         *UND*	00000000 psd_get_layer_threshold
+00000000         *UND*	00000000 psd_get_layer_invert
+00000000         *UND*	00000000 psd_get_layer_posterize
+00000000         *UND*	00000000 psd_get_layer_channel_mixer
+00000000         *UND*	00000000 psd_get_layer_gradient_map
+00000000         *UND*	00000000 psd_get_layer_photo_filter
+00000000         *UND*	00000000 psd_get_layer_effects
+00000000         *UND*	00000000 psd_get_layer_effects2
+00000000         *UND*	00000000 psd_get_layer_type_tool
+00000000         *UND*	00000000 psd_get_layer_solid_color
+00000000         *UND*	00000000 psd_get_layer_gradient_fill
+00000000         *UND*	00000000 psd_get_layer_pattern_fill
+00000000         *UND*	00000000 psd_get_layer_channel_image_data
+00000000         *UND*	00000000 psd_freeif
+00000000         *UND*	00000000 memcpy
+00000000         *UND*	00000000 png_save
+00000000         *UND*	00000000 CreateRgbaBuf
+00000000         *UND*	00000000 __stack_chk_fail
+00000000         *UND*	00000000 psd_stream_get_space_color
+00002000 g     F .text	000002e3 psd_get_layer_and_mask
+00000000         *UND*	00000000 psd_get_pattern
+00000000         *UND*	00000000 psd_layer_levels_free
+00000000         *UND*	00000000 psd_layer_curves_free
+00000000         *UND*	00000000 psd_layer_gradient_map_free
+00000000         *UND*	00000000 psd_layer_type_tool_free
+00000000         *UND*	00000000 psd_layer_effects_free
+000024cd g     F .text	0000006f psd_layer_and_mask_free
+00000000         *UND*	00000000 psd_pattern_free
+00000000         *UND*	00000000 psd_fwrite
+00000000         *UND*	00000000 psd_ftell
+00000000         *UND*	00000000 printf
+00000000         *UND*	00000000 psd_stream_set_blend_mode
+00000000         *UND*	00000000 strlen
+00000000         *UND*	00000000 psd_set_layer_channel_image_data
+0000310d g     F .text	000000ca psd_set_layer_and_mask
+
+
+
+levels.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 levels.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata	00000000 .rodata
+0000017a l     O .rodata	00000015 __PRETTY_FUNCTION__.4674
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	0000050d psd_get_layer_levels
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 psd_stream_get_short
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 psd_stream_get_int
+0000050d g     F .text	0000002a psd_layer_levels_free
+00000000         *UND*	00000000 psd_freeif
+00000000         *UND*	00000000 psd_free
+00000537 g     F .text	0000080b psd_layer_blend_levels
+00000000         *UND*	00000000 pow
+00000000         *UND*	00000000 psd_adjustment_blend_rgb
+00000000         *UND*	00000000 __stack_chk_fail
+
+
+
+logfile.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 logfile.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l     O .bss	00000408 gsLine
+00000000 l     F .text	00000028 fGetSize
+00000000 l    d  .rodata	00000000 .rodata
+00000420 l     O .bss	00000080 FullFileName.3208
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000         *UND*	00000000 stat
+00000028 g     F .text	00000174 Log_MsgLine2
+00000000         *UND*	00000000 strlen
+00000000         *UND*	00000000 time
+00000000         *UND*	00000000 localtime
+00000000         *UND*	00000000 sprintf
+00000000         *UND*	00000000 strcpy
+00000000         *UND*	00000000 strcat
+00000000         *UND*	00000000 fopen
+00000000         *UND*	00000000 fputs
+00000000         *UND*	00000000 fflush
+00000000         *UND*	00000000 fclose
+0000019c g     F .text	00000037 Log_MsgLine
+
+
+
+outer_glow.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 outer_glow.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l     F .text	000000aa psd_set_layer_outer_glow_default
+00000000 l    d  .rodata	00000000 .rodata
+0000008f l     O .rodata	0000001a __PRETTY_FUNCTION__.3840
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+000000aa g     F .text	000000e4 psd_get_layer_outer_glow
+00000000         *UND*	00000000 psd_stream_get_int
+00000000         *UND*	00000000 psd_stream_get_space_color
+00000000         *UND*	00000000 psd_stream_get_blend_mode
+00000000         *UND*	00000000 psd_stream_get_bool
+00000000         *UND*	00000000 psd_stream_get_char
+0000018e g     F .text	00000a5a psd_get_layer_outer_glow2
+00000000         *UND*	00000000 psd_stream_get_null
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 psd_stream_get
+00000000         *UND*	00000000 psd_stream_get_object_blend_mode
+00000000         *UND*	00000000 psd_stream_get_object_color
+00000000         *UND*	00000000 psd_stream_get_object_gradient_color
+00000000         *UND*	00000000 psd_stream_get_double
+00000000         *UND*	00000000 psd_stream_get_object_technique
+00000000         *UND*	00000000 psd_stream_get_object_contour
+00000000         *UND*	00000000 __stack_chk_fail
+
+
+
+path.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 path.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata	00000000 .rodata
+00000000 l     F .text	00000398 psd_get_path_record
+0000006b l     O .rodata	00000014 __PRETTY_FUNCTION__.3532
+00000398 l     F .text	00000054 psd_path_record_free
+00000051 l     O .rodata	0000001a __PRETTY_FUNCTION__.3674
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 psd_stream_get_short
+00000000         *UND*	00000000 psd_realloc
+00000000         *UND*	00000000 psd_stream_get_null
+00000000         *UND*	00000000 psd_stream_get_int
+00000000         *UND*	00000000 psd_fixed_8_24_tofloat
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 psd_freeif
+000003ec g     F .text	000000d3 psd_get_path
+000004bf g     F .text	0000006b psd_path_free
+0000052a g     F .text	000000d5 psd_get_layer_vector_mask
+000005ff g     F .text	00000037 psd_layer_vector_mask_free
+
+
+
+pattern.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 pattern.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l     F .text	000000c3 psd_combine_bitmap1_channel
+000000c3 l     F .text	00000127 psd_combine_grayscale8_channel
+000001ea l     F .text	00000172 psd_combine_grayscale16_channel
+0000035c l     F .text	00000070 psd_combine_indexed8_channel
+000003cc l     F .text	000001b0 psd_combine_rgb8_channel
+0000057c l     F .text	00000250 psd_combine_rgb16_channel
+00000000 l    d  .rodata	00000000 .rodata
+000000f0 l     O .rodata	00000010 __PRETTY_FUNCTION__.4160
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+000007cc g     F .text	00000bda psd_get_pattern
+00000000         *UND*	00000000 psd_stream_get_int
+00000000         *UND*	00000000 psd_realloc
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 psd_stream_get_short
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 psd_stream_get
+00000000         *UND*	00000000 psd_stream_get_char
+00000000         *UND*	00000000 psd_stream_get_null
+00000000         *UND*	00000000 psd_freeif
+00000000         *UND*	00000000 memcpy
+000013a6 g     F .text	000001ac psd_pattern_fill
+00000000         *UND*	00000000 psd_create_bitmap
+00000000         *UND*	00000000 psd_scale_bitmap
+00000000         *UND*	00000000 psd_make_rect
+00000000         *UND*	00000000 psd_draw_bitmap
+00000000         *UND*	00000000 psd_free_bitmap
+00001552 g     F .text	00000076 psd_pattern_free
+00000000         *UND*	00000000 psd_free
+
+
+
+pattern_fill.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 pattern_fill.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata	00000000 .rodata
+00000049 l     O .rodata	0000001b __PRETTY_FUNCTION__.3501
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	000003a9 psd_get_layer_pattern_fill
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 psd_stream_get_int
+00000000         *UND*	00000000 psd_stream_get_null
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 psd_stream_get
+00000000         *UND*	00000000 psd_stream_get_double
+00000000         *UND*	00000000 psd_stream_get_object_pattern_info
+00000000         *UND*	00000000 __stack_chk_fail
+
+
+
+pattern_overlay.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 pattern_overlay.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l     F .text	00000027 psd_set_layer_pattern_overlay_default
+00000000 l    d  .rodata	00000000 .rodata
+00000080 l     O .rodata	0000001f __PRETTY_FUNCTION__.4831
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000027 g     F .text	000005f8 psd_get_layer_pattern_overlay2
+00000000         *UND*	00000000 psd_stream_get_int
+00000000         *UND*	00000000 psd_stream_get_null
+00000000         *UND*	00000000 psd_stream_get
+00000000         *UND*	00000000 strcmp
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 psd_stream_get_object_point
+00000000         *UND*	00000000 psd_stream_get_bool
+00000000         *UND*	00000000 psd_stream_get_object_blend_mode
+00000000         *UND*	00000000 psd_stream_get_double
+00000000         *UND*	00000000 psd_stream_get_object_pattern_info
+00000000         *UND*	00000000 __stack_chk_fail
+
+
+
+photo_filter.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 photo_filter.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	00000122 psd_get_layer_photo_filter
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 psd_stream_get_short
+00000000         *UND*	00000000 psd_stream_get_int
+00000000         *UND*	00000000 psd_stream_get_bool
+00000000         *UND*	00000000 psd_stream_get_char
+00000122 g     F .text	0000000a psd_layer_blend_photo_filter
+
+
+
+pngfile.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 pngfile.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata	00000000 .rodata
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	0000008f png_check
+00000000         *UND*	00000000 fopen
+00000000         *UND*	00000000 fread
+00000000         *UND*	00000000 png_sig_cmp
+00000000         *UND*	00000000 fclose
+0000008f g     F .text	00000269 png_load
+00000000         *UND*	00000000 printf
+00000000         *UND*	00000000 png_create_read_struct
+00000000         *UND*	00000000 puts
+00000000         *UND*	00000000 png_create_info_struct
+00000000         *UND*	00000000 png_destroy_read_struct
+00000000         *UND*	00000000 png_init_io
+00000000         *UND*	00000000 png_read_info
+00000000         *UND*	00000000 png_set_strip_16
+00000000         *UND*	00000000 png_set_interlace_handling
+00000000         *UND*	00000000 malloc
+00000000         *UND*	00000000 png_read_row
+00000000         *UND*	00000000 png_read_end
+000002f8 g     F .text	00000211 png_save
+00000000         *UND*	00000000 png_create_write_struct
+00000000         *UND*	00000000 png_destroy_write_struct
+00000000         *UND*	00000000 png_set_IHDR
+00000000         *UND*	00000000 png_write_info
+00000000         *UND*	00000000 png_write_row
+00000000         *UND*	00000000 png_write_end
+00000509 g     F .text	0000038e png2png
+00000000         *UND*	00000000 _setjmp
+00000000         *UND*	00000000 png_read_rows
+00000000         *UND*	00000000 png_write_rows
+00000000         *UND*	00000000 free
+
+
+
+posterize.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 posterize.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata	00000000 .rodata
+00000035 l     O .rodata	00000018 __PRETTY_FUNCTION__.3520
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	000000f6 psd_get_layer_posterize
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 psd_stream_get_short
+00000000         *UND*	00000000 __assert_fail
+000000f6 g     F .text	00000138 psd_layer_blend_posterize
+00000000         *UND*	00000000 psd_adjustment_blend_image
+
+
+
+psd.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 psd.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l     F .text	000000ef psd_image_load_tag
+0000020a l     F .text	000001e1 psd_main_loop
+00000000 l    d  .rodata	00000000 .rodata
+0000002c l     O .rodata	0000000e __PRETTY_FUNCTION__.3565
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 psd_fopen
+00000000         *UND*	00000000 psd_free
+00000000         *UND*	00000000 psd_fsize
+000001a3 g     F .text	00000067 psd_image_free
+000000ef g     F .text	00000022 psd_image_load
+00000111 g     F .text	00000022 psd_image_load_header
+00000133 g     F .text	00000022 psd_image_load_layer
+00000155 g     F .text	00000022 psd_image_load_merged
+00000177 g     F .text	00000022 psd_image_load_thumbnail
+00000199 g     F .text	0000000a psd_image_load_exif
+00000000         *UND*	00000000 psd_color_mode_data_free
+00000000         *UND*	00000000 psd_image_resource_free
+00000000         *UND*	00000000 psd_layer_and_mask_free
+00000000         *UND*	00000000 psd_image_data_free
+00000000         *UND*	00000000 psd_image_blend_free
+00000000         *UND*	00000000 psd_stream_free
+00000000         *UND*	00000000 psd_get_file_header
+00000000         *UND*	00000000 psd_get_color_mode_data
+00000000         *UND*	00000000 psd_get_image_resource
+00000000         *UND*	00000000 psd_get_layer_and_mask
+00000000         *UND*	00000000 psd_get_image_data
+00000000         *UND*	00000000 png_save
+00000000         *UND*	00000000 __assert_fail
+000003eb g     F .text	0000007b psd_image_save
+00000000         *UND*	00000000 rewind
+00000000         *UND*	00000000 psd_set_file_header
+00000000         *UND*	00000000 psd_set_color_mode_data
+00000000         *UND*	00000000 psd_set_image_resource
+00000000         *UND*	00000000 psd_set_layer_and_mask
+00000000         *UND*	00000000 psd_set_image_data
+
+
+
+psdfile.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 psdfile.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l     O .bss	00000b40 gPsdFileTable
+00000000 l     F .text	0000018f convert_rgb_to_yuv_pixel
+00000000 l    d  .rodata	00000000 .rodata
+000008c5 l     F .text	00000047 swap_rgb24
+0000090c l     F .text	00000047 swap_rgba32
+00000953 l     F .text	000000ff Rgb24_flip
+00000a52 l     F .text	00000124 Rgba32_flip
+00000b76 l     F .text	00000101 Rgb24_mirror
+00000c77 l     F .text	0000011d Rgba32_mirror
+00000d94 l     F .text	000000bb Rgba32_left90
+00000e4f l     F .text	000000be Rgba32_right90
+00000f0d l     F .text	00000098 rgb24ToPlanar
+00000fa5 l     F .text	0000008f argb2rgb
+00001034 l     F .text	00000141 PngImg2Rgb
+00001175 l     F .text	00000117 Rgb2PngImg
+0000128c l     F .text	00000141 PsdImg2Rgb
+000013cd l     F .text	00000118 Rgb2PsdImg
+000014e5 l     F .text	000000dd PngAddTransparency
+000015c2 l     F .text	0000011a PngSetBrightness
+000016dc l     F .text	000002cf PngSetContrast
+000019ab l     F .text	0000023f ZoomImg
+00001bea l     F .text	000000ee CropImg
+00002591 l     F .text	000000a6 fGetSize
+00002637 l     F .text	00000071 CreateCanvas
+000026a8 l     F .text	0000021e MergeLayer1
+000028c6 l     F .text	0000019a MergeLayer3
+0000310b l     F .text	00000396 CreateBackgroundPsdFile
+000034a1 l     F .text	0000010c CreateWriteContext
+00000401 l     O .rodata	0000000c __PRETTY_FUNCTION__.7823
+000003f5 l     O .rodata	0000000c __PRETTY_FUNCTION__.7936
+000003e6 l     O .rodata	0000000f __PRETTY_FUNCTION__.8079
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+0000018f g     F .text	00000173 convert_rgb_to_yuv_buffer
+00000302 g     F .text	00000140 convert_rgb_to_yuv_file
+00000000         *UND*	00000000 fopen
+00000000         *UND*	00000000 malloc
+00000000         *UND*	00000000 fread
+00000000         *UND*	00000000 fclose
+00000000         *UND*	00000000 fwrite
+00000442 g     F .text	00000105 convert_yuv_to_rgb_pixel
+00000547 g     F .text	000001a0 convert_yuv_to_rgb_buffer
+000006e7 g     F .text	00000140 convert_yuv_to_rgb_file
+00000827 g     F .text	0000009e CreateRgbaBuf
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 memcpy
+00000000         *UND*	00000000 memset
+00001cd8 g     F .text	00000096 jpg2bmp
+00000000         *UND*	00000000 jpg_load
+00000000         *UND*	00000000 printf
+00000000         *UND*	00000000 bmp_save
+00000000         *UND*	00000000 psd_free
+00001d6e g     F .text	000000c1 bmp2jpg
+00000000         *UND*	00000000 bmp_load
+00000000         *UND*	00000000 jpg_save
+00001e2f g     F .text	000000e8 bmp2bmp
+00001f17 g     F .text	000000fb bmp2png
+00000000         *UND*	00000000 png_save
+00002012 g     F .text	000000bb png2bmp
+00000000         *UND*	00000000 png_load
+000020cd g     F .text	00000112 pngcrop
+00000000         *UND*	00000000 psd_freeif
+000021df g     F .text	0000014a pngzoom
+00002329 g     F .text	00000100 Psd2Jpg
+00000000         *UND*	00000000 psd_image_load
+00000000         *UND*	00000000 psd_image_free
+00002429 g     F .text	000000cd Psd2Bmp
+000024f6 g     F .text	0000009b Psd2Png
+00000000         *UND*	00000000 ftell
+00000000         *UND*	00000000 fseek
+00000000         *UND*	00000000 max
+00000000         *UND*	00000000 min
+00002a60 g     F .text	00000122 PngAddBmp
+00002b82 g     F .text	000000ef PngMerge
+00002c71 g     F .text	00000209 MergeTwoPngFile
+00000000         *UND*	00000000 puts
+00002e7a g     F .text	00000291 CreateDemoPsdFile
+00000000         *UND*	00000000 psd_set_file_header
+00000000         *UND*	00000000 psd_ftell
+00000000         *UND*	00000000 psd_set_color_mode_data
+00000000         *UND*	00000000 psd_set_image_resource
+00000000         *UND*	00000000 psd_set_layer_and_mask
+00000000         *UND*	00000000 psd_set_image_data
+00000000         *UND*	00000000 __stack_chk_fail
+000035ad g     F .text	0000037f GetImgFileSize
+00000000         *UND*	00000000 strlen
+0000392c g     F .text	00000233 Psd2Psd
+00000000         *UND*	00000000 sprintf
+00000000         *UND*	00000000 Log_MsgLine
+00003cde g     F .text	00000852 PsdNewFile
+00004c4a g     F .text	0000068e PsdNewLayer
+00003b5f g     F .text	000000a3 PsdLoadFile
+00003c02 g     F .text	000000dc PsdGetLayers
+00000000         *UND*	00000000 strcpy
+00004530 g     F .text	0000010d PsdCloseFile
+0000463d g     F .text	00000310 PsdSaveFile
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 psd_image_save
+0000494d g     F .text	000002fd PsdPreview
+000052d8 g     F .text	00000490 PsdCreateLayer
+00005768 g     F .text	000003a1 PsdSetLayerDirection
+00005b09 g     F .text	000001d5 PsdSetLayerBrightness
+00005cde g     F .text	000001d5 PsdSetLayerContrast
+
+
+
+psd_system.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 psd_system.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata	00000000 .rodata
+000001c2 l     F .text	00000156 psd_fCopy
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	00000033 psd_malloc
+00000000         *UND*	00000000 malloc
+00000000         *UND*	00000000 memset
+00000033 g     F .text	0000001a psd_realloc
+00000000         *UND*	00000000 realloc
+0000004d g     F .text	00000013 psd_free
+00000000         *UND*	00000000 free
+00000060 g     F .text	00000019 psd_freeif
+00000079 g     F .text	0000001c psd_fopen
+00000000         *UND*	00000000 fopen
+00000095 g     F .text	00000077 psd_fsize
+00000000         *UND*	00000000 ftell
+00000000         *UND*	00000000 fseek
+0000010c g     F .text	00000029 psd_fread
+00000000         *UND*	00000000 fread
+00000135 g     F .text	00000022 psd_fseek
+00000157 g     F .text	00000013 psd_fclose
+00000000         *UND*	00000000 fclose
+0000016a g     F .text	00000029 psd_fwrite
+00000000         *UND*	00000000 fwrite
+00000193 g     F .text	00000013 psd_ftell
+000001a6 g     F .text	0000001c psd_fnew
+
+
+
+psd_zip.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 psd_zip.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+
+
+
+rect.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 rect.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	00000095 psd_incept_rect
+00000095 g     F .text	0000004f psd_equal_rect
+000000e4 g     F .text	000002ae psd_subtract_rect
+00000392 g     F .text	00000028 psd_make_rect
+000003ba g     F .text	00000022 psd_dup_rect
+00000000         *UND*	00000000 memcpy
+000003dc g     F .text	00000016 psd_rect_width
+000003f2 g     F .text	00000017 psd_rect_height
+00000409 g     F .text	00000047 psd_offset_rect
+00000450 g     F .text	000000a9 psd_inflate_rect
+000004f9 g     F .text	0000003c psd_point_in_rect
+00000535 g     F .text	00000030 psd_is_empty_rect
+
+
+
+satin.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 satin.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l     F .text	0000007a psd_set_layer_satin_default
+00000000 l    d  .rodata	00000000 .rodata
+0000008a l     O .rodata	00000015 __PRETTY_FUNCTION__.4834
+00000803 l     F .text	000002d5 psd_satin_blend_offset
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+0000007a g     F .text	00000789 psd_get_layer_satin2
+00000000         *UND*	00000000 psd_stream_get_int
+00000000         *UND*	00000000 psd_stream_get_null
+00000000         *UND*	00000000 psd_stream_get
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 psd_stream_get_bool
+00000000         *UND*	00000000 psd_stream_get_object_blend_mode
+00000000         *UND*	00000000 psd_stream_get_object_color
+00000000         *UND*	00000000 psd_stream_get_double
+00000000         *UND*	00000000 psd_stream_get_object_contour
+00000000         *UND*	00000000 __stack_chk_fail
+
+
+
+selective_color.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 selective_color.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata	00000000 .rodata
+0000012d l     O .rodata	0000001e __PRETTY_FUNCTION__.3635
+0000026b l     F .text	00000789 psd_selective_color_proc
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	0000026b psd_get_layer_selective_color
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 psd_stream_get_short
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 psd_rgb_to_intcmyk
+00000000         *UND*	00000000 psd_rgb_to_inthsb
+00000000         *UND*	00000000 psd_intcmyk_to_rgb
+000009f4 g     F .text	00000098 psd_layer_blend_selective_color
+00000000         *UND*	00000000 psd_adjustment_blend_color
+
+
+
+solid_color.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 solid_color.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata	00000000 .rodata
+00000048 l     O .rodata	0000001a __PRETTY_FUNCTION__.3606
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	0000020f psd_get_layer_solid_color
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 psd_stream_get_int
+00000000         *UND*	00000000 psd_stream_get_null
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 psd_stream_get_object_color
+
+
+
+stream.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 stream.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l     F .text	0000003b psd_test_big_endian
+00000000 l     O .data	00000001 result.3577
+00000000 l    d  .rodata	00000000 .rodata
+00000031 l     O .rodata	0000000f __PRETTY_FUNCTION__.3597
+00000017 l     O .rodata	0000001a __PRETTY_FUNCTION__.3855
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+0000003b g     F .text	000002ed psd_stream_get
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 memcpy
+00000000         *UND*	00000000 psd_fread
+00000000         *UND*	00000000 __stack_chk_fail
+00000328 g     F .text	0000021f psd_stream_get_null
+00000000         *UND*	00000000 psd_fseek
+00000547 g     F .text	00000018 psd_stream_get_bool
+0000055f g     F .text	00000036 psd_stream_get_char
+00000595 g     F .text	0000004f psd_stream_get_short
+000005e4 g     F .text	00000070 psd_stream_get_int
+00000654 g     F .text	0000008c psd_stream_get_float
+000006e0 g     F .text	000000a7 psd_stream_get_double
+00000787 g     F .text	0000006d psd_stream_get_space_color
+00000000         *UND*	00000000 psd_color_space_to_argb
+000007f4 g     F .text	0000029f psd_stream_get_blend_mode
+00000a93 g     F .text	00000062 psd_stream_free
+00000000         *UND*	00000000 psd_free
+00000000         *UND*	00000000 psd_fclose
+00000af5 g     F .text	0000003e psd_stream_set_blend_mode
+
+
+
+stroke.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 stroke.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l     F .text	00000081 psd_set_layer_stroke_default
+00000000 l    d  .rodata	00000000 .rodata
+000000bb l     O .rodata	00000016 __PRETTY_FUNCTION__.4875
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000081 g     F .text	00000e13 psd_get_layer_stroke2
+00000000         *UND*	00000000 psd_stream_get_int
+00000000         *UND*	00000000 psd_stream_get_null
+00000000         *UND*	00000000 psd_stream_get
+00000000         *UND*	00000000 strcmp
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 psd_stream_get_object_point
+00000000         *UND*	00000000 psd_stream_get_bool
+00000000         *UND*	00000000 psd_stream_get_object_blend_mode
+00000000         *UND*	00000000 psd_stream_get_double
+00000000         *UND*	00000000 psd_stream_get_object_color
+00000000         *UND*	00000000 psd_stream_get_object_gradient_color
+00000000         *UND*	00000000 psd_stream_get_object_gradient_style
+00000000         *UND*	00000000 psd_stream_get_object_pattern_info
+00000000         *UND*	00000000 __stack_chk_fail
+
+
+
+threshold.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 threshold.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata	00000000 .rodata
+00000033 l     O .rodata	00000018 __PRETTY_FUNCTION__.3628
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	000000f5 psd_get_layer_threshold
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 psd_stream_get_short
+00000000         *UND*	00000000 __assert_fail
+000000f5 g     F .text	0000016a psd_layer_blend_threshold
+00000000         *UND*	00000000 psd_adjustment_blend_gray
+00000000         *UND*	00000000 __stack_chk_fail
+
+
+
+thumbnail.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 thumbnail.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l     F .text	00000036 fatal_error_handler
+00000036 l     F .text	0000001e init_source
+00000054 l     F .text	0000000a fill_input_buffer
+0000005e l     F .text	0000005c skip_input_data
+000000ba l     F .text	00000005 term_source
+000000bf l     F .text	000000b6 explode_gray_into_buf
+00000175 l     F .text	00000200 convert_cmyk_to_rgb
+00000375 l     F .text	0000010d psd_jpeg_image_begin_load
+00000482 l     F .text	0000046c psd_jpeg_image_load_increment
+000008ee l     F .text	0000007e psd_jpeg_image_stop_load
+00000000 l    d  .rodata	00000000 .rodata
+0000000e l     O .rodata	00000019 __PRETTY_FUNCTION__.4576
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000         *UND*	00000000 longjmp
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 jpeg_CreateDecompress
+00000000         *UND*	00000000 jpeg_std_error
+00000000         *UND*	00000000 jpeg_resync_to_restart
+00000000         *UND*	00000000 _setjmp
+00000000         *UND*	00000000 memmove
+00000000         *UND*	00000000 memcpy
+00000000         *UND*	00000000 jpeg_read_header
+00000000         *UND*	00000000 jpeg_start_decompress
+00000000         *UND*	00000000 jpeg_start_output
+00000000         *UND*	00000000 jpeg_read_scanlines
+00000000         *UND*	00000000 jpeg_finish_output
+00000000         *UND*	00000000 jpeg_input_complete
+00000000         *UND*	00000000 psd_freeif
+00000000         *UND*	00000000 jpeg_destroy_decompress
+00000000         *UND*	00000000 jpeg_finish_decompress
+00000000         *UND*	00000000 psd_free
+0000096c g     F .text	00000246 psd_thumbnail_decode_jpeg
+00000000         *UND*	00000000 psd_stream_get
+00000bb2 g     F .text	0000002a psd_thumbnail_decode_raw
+00000000         *UND*	00000000 __assert_fail
+
+
+
+type_tool.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 type_tool.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata	00000000 .rodata
+00000053 l     O .rodata	00000018 __PRETTY_FUNCTION__.3582
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	00000721 psd_get_layer_type_tool
+00000000         *UND*	00000000 psd_malloc
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 psd_stream_get_short
+00000000         *UND*	00000000 __assert_fail
+00000000         *UND*	00000000 psd_stream_get_double
+00000000         *UND*	00000000 psd_stream_get_int
+00000000         *UND*	00000000 psd_stream_get_char
+00000000         *UND*	00000000 psd_stream_get
+00000000         *UND*	00000000 psd_stream_get_bool
+00000000         *UND*	00000000 psd_stream_get_space_color
+00000721 g     F .text	0000007d psd_layer_type_tool_free
+00000000         *UND*	00000000 psd_free
+
+
