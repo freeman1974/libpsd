@@ -1,0 +1,20 @@
+libpsd is a multi-layer photo render softare. It decode photoshop's psd file and create his .psd file.
+lib for photoshop .psd file's decoding and rendering.
+
+Functions list:
+1. load .psd.bmp.jpg.png file.
+2. New a psd file, new a psd layer.
+3. layer direction/brightness/contrast adjust.
+4. layer zoom. 
+5. psd2png, psd2jpg,psd2bmp.
+
+
+Known issues:
+1.Can NOT edit a .psd file directly. you need to convert it before edit.
+
+
+modification history:
+
+
+create on 2015-6-26 by freeman.
+
