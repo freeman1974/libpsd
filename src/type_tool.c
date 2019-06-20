@@ -23,11 +23,12 @@
  * $Id: type_tool.c, created by Patrick in 2006.05.30, libpsd@graphest.com Exp $
  */
 
+#include <stdio.h>
 #include "libpsd.h"
 #include "psd_system.h"
 #include "psd_stream.h"
 #include "psd_color.h"
-
+#include "psd_descriptor.h"
 
 // Type Tool Info (Photoshop 5.0 and 5.5 only)
 psd_status psd_get_layer_type_tool(psd_context * context, psd_layer_record * layer)
@@ -219,3 +220,169 @@ void psd_layer_type_tool_free(psd_uint info_data)
 	psd_free(data);
 }
 
+//-----------------------------------------------------------------------------
+// TySh - Photoshop6+
+
+static psd_status psd_get_text_descriptor(psd_context * context, psd_layer_type_tool6 *data)
+{
+	psd_int	length;
+	psd_int	number_items;
+	psd_int	type;
+
+	// Unicode string: name from classID
+	psd_stream_get_unicode_name(context);
+
+	// ClassID
+	psd_stream_get_object_id(context);
+
+	// Number of items in descriptor
+	number_items = psd_stream_get_int(context);
+
+	while(number_items --)
+	{
+		// Key: 4 bytes ( length) followed either by string or (if length is zero) 4-byte key
+		psd_stream_get_object_id(context);
+
+		// Type: OSType key
+		type = psd_stream_get_int(context);
+		switch(type)
+		{
+		case 'TEXT':
+			psd_stream_get_object_string(context);
+			break;
+		case 'enum':
+			psd_stream_get_object_enumerated(context);
+			break;
+		case 'Objc':
+			psd_stream_get_object_descriptor(context);
+			break;
+		case 'long':
+			psd_stream_get_object_integer(context);
+			break;
+		case 'doub':
+			psd_stream_get_object_double(context);
+			break;
+		case 'UntF':
+			psd_stream_get_object_unit_float(context);
+			break;
+		case 'tdta':
+			length = psd_stream_get_int(context);
+			data->pszTextData = malloc(length + 1);
+			psd_stream_get(context, data->pszTextData, length);
+			data->pszTextData[length] = 0;
+			break;
+		default:
+			psd_assert(0);
+		}
+	}
+
+	return psd_status_done;
+}
+
+static psd_status psd_get_warp_descriptor(psd_context * context, psd_layer_type_tool6 *data)
+{
+	psd_int	length;
+	psd_int	number_items;
+	psd_int	type;
+
+	// Unicode string: name from classID
+	psd_stream_get_unicode_name(context);
+
+	// ClassID
+	psd_stream_get_object_id(context);
+
+	// Number of items in descriptor
+	number_items = psd_stream_get_int(context);
+
+	while(number_items --)
+	{
+		// Key: 4 bytes ( length) followed either by string or (if length is zero) 4-byte key
+		psd_stream_get_object_id(context);
+
+		// Type: OSType key
+		type = psd_stream_get_int(context);
+		switch(type)
+		{
+		case 'TEXT':
+			psd_stream_get_object_string(context);
+			break;
+		case 'enum':
+			psd_stream_get_object_enumerated(context);
+			break;
+		case 'Objc':
+			psd_stream_get_object_descriptor(context);
+			break;
+		case 'long':
+			psd_stream_get_object_integer(context);
+			break;
+		case 'doub':
+			psd_stream_get_object_double(context);
+			break;
+		case 'UntF':
+			psd_stream_get_object_unit_float(context);
+			break;
+		case 'tdta':
+			length = psd_stream_get_int(context);
+			data->pszTextData = malloc(length + 1);
+			psd_stream_get(context, data->pszTextData, length);
+			data->pszTextData[length] = 0;
+			break;
+		default:
+			psd_assert(0);
+		}
+	}
+
+	return psd_status_done;
+}
+
+psd_status psd_get_layer_type_tool6(psd_context * context, psd_layer_record * layer)
+{
+	psd_layer_type_tool6 * data;
+	psd_int i;
+	psd_status	status;
+	psd_int n;
+
+	layer->layer_info_type[layer->layer_info_count] = psd_layer_info_type_type_tool6;
+
+	data = (psd_layer_type_tool6 *)psd_malloc(sizeof(psd_layer_type_tool6));
+	if(data == NULL)
+		return psd_status_malloc_failed;
+	memset(data, 0, sizeof(psd_layer_type_tool6));
+	layer->layer_info_data[layer->layer_info_count] = (psd_uint)data;
+	layer->layer_info_count ++;
+	
+	// Version (=1 for Photoshop 6.0)
+	psd_assert(psd_stream_get_short(context) == 1);
+
+	// 6 * 8 double precision numbers for the transform information
+	for(i = 0; i < 6; i ++)
+		data->transform_info[i] = psd_stream_get_double(context);
+
+	// Text Version (= 50 for Photoshop 6.0)
+	psd_assert(psd_stream_get_short(context) == 50);
+
+	// Descriptor Version (= 16 for Photoshop 6.0)
+	psd_assert(psd_stream_get_int(context) == 16);
+
+	psd_get_text_descriptor(context, data);
+
+	psd_assert(psd_stream_get_short(context) == 1);
+	psd_assert(psd_stream_get_int(context) == 16);
+
+	//
+	//	Warp data
+	//
+
+	status = psd_get_warp_descriptor(context, data);
+
+	// Specs says: 4 * 8 left, top, right, bottom respectively.
+	// But we aren't seeing 32 bytes.
+
+	for(i = 0; i < 4; i ++) {
+		n = psd_stream_get_int(context);
+		printf("psd_layer_type_tool6: n=%d\n", n);
+	}
+	//psd_stream_get_null(context, 3);
+
+	return psd_status_done;
+}

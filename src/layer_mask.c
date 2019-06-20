@@ -642,9 +642,10 @@ static psd_status psd_get_layer_info(psd_context * context)
 				case 'tySh':
 					status = psd_get_layer_type_tool(context, layer);
 					break;
-				//case 'TySh':
+				case 'TySh':
 					// Type tool object setting (Photoshop 6.0)
-					//break;
+					status = psd_get_layer_type_tool6(context, layer);
+					break;
 				case 'SoCo':
 					status = psd_get_layer_solid_color(context, layer);
 					break;
