@@ -55,6 +55,7 @@ extern psd_status psd_get_layer_gradient_fill(psd_context * context, psd_layer_r
 extern psd_status psd_get_layer_pattern_fill(psd_context * context, psd_layer_record * layer);
 extern psd_status psd_get_layer_channel_image_data(psd_context * context, psd_layer_record * layer);
 extern psd_status psd_get_layer_type_tool(psd_context * context, psd_layer_record * layer);
+extern psd_status psd_get_layer_type_tool6(psd_context * context, psd_layer_record * layer);
 extern psd_status psd_get_pattern(psd_context * context);
 extern psd_status psd_get_layer_vector_mask(psd_context * context, psd_layer_record * layer, psd_int size);
 extern void psd_layer_type_tool_free(psd_uint info_data);

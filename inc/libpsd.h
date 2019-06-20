@@ -229,7 +229,7 @@ typedef enum {
 	psd_layer_info_type_gradient_map,		// Key is 'grdm'.
 	psd_layer_info_type_photo_filter,		// Key is 'phfl'.
 	psd_layer_info_type_type_tool,			// 'tySh'. Type Tool Info (Photoshop 5.0 and 5.5 only)
-	psd_layer_info_type_type_tool_object,	// 'TySh'. Type tool object setting (Photoshop 6.0)
+	psd_layer_info_type_type_tool6,	// 'TySh'. Type tool object setting (Photoshop 6.0)
 	psd_layer_info_type_effects,			// Effects Layer (Photoshop 5.0). The key for the effects layer is 'lrFX'.
 	psd_layer_info_type_effects2,			// 'lfx2', Photoshop 6.0
 	psd_layer_info_type_solid_color,		// Key is 'SoCo'
@@ -1227,6 +1227,11 @@ typedef struct _psd_layer_type_tool
 	psd_bool					anti_alias;				// Anti alias on/off
 } psd_layer_type_tool;
 
+typedef struct _psd_layer_type_tool6
+{
+	psd_double					transform_info[6];		// 6 * 8 double precision numbers for the transform information
+	psd_char					*pszTextData;
+} psd_layer_type_tool6;
 
 // end of additional layer information
 /*********************************************************************************/
