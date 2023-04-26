@@ -377,6 +377,7 @@ psd_status psd_get_layer_type_tool6(psd_context * context, psd_layer_record * la
 
 	// Specs says: 4 * 8 left, top, right, bottom respectively.
 	// But we aren't seeing 32 bytes.
+	// Only getting zeros for these 16 bytes.
 
 	for(i = 0; i < 4; i ++) {
 		n = psd_stream_get_int(context);
